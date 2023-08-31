@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+
+#main-container {
+    margin: 0 auto ; 
+    display: grid;
+    border: 3px black solid;
+    width: 540px;
+    height: 540px;
+    margin-top: 2em
+ 
+}
+
+button {
+    padding: 1em 3em;
+    width: 10%;
+    border: solid black 3px;
+    border-radius: 3px;
+    background: white;
+    font-weight: bold;
+    
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
